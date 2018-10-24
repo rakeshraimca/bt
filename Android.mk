@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,bt-vendor))
+#ifeq ($(call my-dir),$(call project-path-for,bt-vendor))
 
 LOCAL_PATH := $(call my-dir)
 
@@ -16,4 +16,4 @@ ifeq ($(TARGET_USE_QTI_BT_STACK),true)
 include $(TMP_LOCAL_PATH)/bthost_ipc/Android.mk
 endif #TARGET_USE_QTI_BT_STACK
 
-endif
+#endif
